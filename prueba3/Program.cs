@@ -34,6 +34,7 @@ namespace Calculadora
 
                 switch (opcion)
                 {
+ divicion
                     case 4:
                         if (num2 != 0)
                         {
@@ -49,7 +50,19 @@ namespace Calculadora
                     default:
                         Console.WriteLine("Opción no válida.");
                         break;
-
+                    case 1:
+                        resultado = num1 + num2;
+                        Console.WriteLine("Resultado de la suma: " + resultado);
+                        break;
+                    case 2:
+                        resultado = num1 - num2;
+                        Console.WriteLine("Resultado de la resta: " + resultado);
+                        break;
+                    case 3:
+                        resultado = num1 * num2;
+                        Console.WriteLine("Resultado de la multiplicación: " + resultado);
+                        break;
+ master
 
                 }
 
