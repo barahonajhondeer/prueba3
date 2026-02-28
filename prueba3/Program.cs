@@ -34,14 +34,7 @@ namespace Calculadora
 
                 switch (opcion)
                 {
-                    case 1:
-                        resultado = num1 + num2;
-                        Console.WriteLine("Resultado de la suma: " + resultado);
-                        break;
-
-                    default:
-                        Console.WriteLine("Opción no válida.");
-                        break;
+                   
                 }
 
                 Console.Write("\n¿Desea continuar? (S/N): ");
